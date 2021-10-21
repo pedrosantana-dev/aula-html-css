@@ -2,6 +2,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
+    border: 0;
 }
 body {
     margin: 0;
@@ -32,33 +33,97 @@ h2 {
     color: #000;
     text-align: center;
 }
+h3 {
+    font-size: 39px;
+    font-weight: 600;
+}
 .destaques {
     width: 100vw;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
 }
-.sale {
+.sale {   
+    position: relative; 
     background-color: #C2185B;
+    margin-top: 45px;
+    padding-bottom: 45px ;
 }
-.sale ul {
+.sale ul {    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+.sale h2 {
+    color: #fff;
+    padding: 45px 0;
+    margin: 0;
+
+}
+
 .sale li {
     display: inline;
 }
-
 .sale li a {
-    display: inline-block;
-    margin: 5px;
+    display: block;
+    width: 260px;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    text-decoration: none;
+
+    font-size: 16px;    
+    font-weight: normal;
+    color: #000;
+
+
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, .5);
 }
 .sale li a img {
-    display: inline-block;
-    width: 260px;
-    height: 300px;
+    width: 100%;
 }
+.sale li a div h4, .sale li a div p {
+    padding:  0;
+    margin:  0 8px;
+}
+.sale li a div h4 {
+    font-weight: 600;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 45px 0;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 513px;
+    margin: 35px 10px;
+}
+section div h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.botao {
+    display: inline-block;
+    padding: 23px 85px;
+    background-color: #C2185B;
+    font-size: 39px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 0 35px;
+}
+.botao:hover {
+    background-color: palevioletred;
+}
+
 
 @media (max-width: 1002px) {
     .destaques {
@@ -66,6 +131,14 @@ h2 {
     }
     .destaques img {
         margin: 10px 0;
+        width: 100%;
+    }
+}
+@media (max-width: 1060px) {
+    section div {
+        max-width: 100%;
+    }
+    section div img {
         width: 100%;
     }
 }
