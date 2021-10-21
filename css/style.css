@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .menu {
     display: flex;
@@ -34,17 +35,37 @@ h2 {
 .destaques {
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
     align-items: baseline;
+    justify-content: space-around;
+}
+.sale {
+    background-color: #C2185B;
+}
+.sale ul {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-.destaques img {
-    margin: 54px;
-    width: inherit;
+.sale li {
+    display: inline;
 }
-.destaques img:nth-child(1) {
-    max-width: 400px;
+
+.sale li a {
+    display: inline-block;
+    margin: 5px;
 }
-.destaques img:nth-child(2) {
-    max-width: 600px;
+.sale li a img {
+    display: inline-block;
+    width: 260px;
+    height: 300px;
+}
+
+@media (max-width: 1002px) {
+    .destaques {
+        flex-wrap: wrap;
+    }
+    .destaques img {
+        margin: 10px 0;
+        width: 100%;
+    }
 }
