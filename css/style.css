@@ -1,144 +1,243 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
-*{
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-    border: 0;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  border: 0;
 }
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .menu ul li {
-    display: inline;
-    margin: 0 39px;
+  display: inline;
+  margin: 0 39px;
 }
-.menu ul li a {    
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #777;
+.menu ul li a {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #777;
 }
 .banner img {
-    width: 100vw;
+  width: 100vw;
 }
 h2 {
-    font-size: 60px;
-    font-weight: 800;
-    color: #000;
-    text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  color: #000;
+  text-align: center;
 }
 h3 {
-    font-size: 39px;
-    font-weight: 600;
+  font-size: 39px;
+  font-weight: 600;
 }
 .destaques {
-    width: 100vw;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+  width: 100vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
 }
-.sale {   
-    position: relative; 
-    background-color: #C2185B;
-    margin-top: 45px;
-    padding-bottom: 45px ;
+.sale {
+  position: relative;
+  background-color: #c2185b;
+  margin-top: 45px;
+  padding-bottom: 45px;
 }
-.sale ul {    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.sale ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .sale h2 {
-    color: #fff;
-    padding: 45px 0;
-    margin: 0;
-
+  color: #fff;
+  padding: 45px 0;
+  margin: 0;
 }
 
 .sale li {
-    display: inline;
+  display: inline;
 }
 .sale li a {
-    display: block;
-    width: 260px;
-    margin: 10px;
-    padding-bottom: 10px;
-    background-color: #fff;
-    text-decoration: none;
+  display: block;
+  width: 260px;
+  margin: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  text-decoration: none;
 
-    font-size: 16px;    
-    font-weight: normal;
-    color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000;
 
-
-    box-shadow: 2px 1px 3px rgba(0, 0, 0, .5);
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .sale li a img {
-    width: 100%;
+  width: 100%;
 }
-.sale li a div h4, .sale li a div p {
-    padding:  0;
-    margin:  0 8px;
+.sale li a div h4,
+.sale li a div p {
+  padding: 0;
+  margin: 0 8px;
 }
 .sale li a div h4 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 45px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 45px 0;
 }
 
 section div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 513px;
-    margin: 35px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 513px;
+  margin: 35px 10px;
 }
 section div h3 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .botao {
-    display: inline-block;
-    padding: 23px 85px;
-    background-color: #C2185B;
-    font-size: 39px;
-    font-weight: 600;
-    color: #fff;
-    text-decoration: none;
-    margin: 15px 0 35px;
+  display: inline-block;
+  padding: 23px 85px;
+  background-color: #c2185b;
+  font-size: 39px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  margin: 15px 0 35px;
 }
 .botao:hover {
-    background-color: palevioletred;
+  background-color: palevioletred;
 }
-
 
 @media (max-width: 1002px) {
-    .destaques {
-        flex-wrap: wrap;
-    }
-    .destaques img {
-        margin: 10px 0;
-        width: 100%;
-    }
+  .destaques {
+    flex-wrap: wrap;
+  }
+  .destaques img {
+    margin: 10px 0;
+    width: 100%;
+  }
 }
 @media (max-width: 1060px) {
-    section div {
-        max-width: 100%;
-    }
-    section div img {
-        width: 100%;
-    }
+  section div {
+    max-width: 100%;
+  }
+  section div img {
+    width: 100%;
+  }
+}
+
+/* Styles Trabalhe Conosco */
+.max-width {
+  position: relative;
+  width: 100%;
+  max-width: 1300px;
+  margin: 10px auto;
+}
+section .max-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+.formulario h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #575757;
+  margin: 0 10px 20px;
+}
+.formulario fieldset {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+input,
+textarea {
+  border: 1px solid #ccc;
+}
+fieldset h5 {
+  margin: 0;
+  padding: 0;
+}
+fieldset div {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+  justify-content: start;
+  margin: 10px;
+}
+.upload {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.upload button {
+  background: #ccc;
+  padding: 4px 15px;
+  margin-left: 10px;
+}
+
+form > button {
+  width: 100%;
+  background-color: #c2185b;
+  color: #fff;
+  padding: 8px;
+  font-weight: 600;
+}
+.max-width .texto {
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #c2185b;
+}
+footer .max-width {
+  background-color: #c2185b;
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+  color: #fff;
+}
+footer .max-width div {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+}
+footer .max-width ul {
+  padding: 0;
+}
+footer .max-width li {
+  display: inline;
+}
+footer .max-width a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .max-width img {
+    width: 80%;
+    margin: 0;
+    padding: 0;
 }
