@@ -1,0 +1,87 @@
+.banner {
+  display: block;
+}
+.banner img {
+  width: 100%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;  
+  flex-wrap: wrap;  
+  justify-content: space-around;
+}
+.estilo {
+  align-items: baseline;
+}
+.estilo div {
+    margin: 10px;
+}
+h2 {
+  font-size: 2.8em;
+  text-transform: lowercase;
+}
+.sale {
+    background-color: #C2185B;
+    padding-bottom: 50px;
+}
+.sale h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.sale a {
+    margin: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #212121;
+    transition: .3s ease-in;
+}
+.sale a:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+    transform: scale(1.1);    
+}
+.sale a:hover:nth-child(2n) {
+    transform: rotate(15deg);
+}
+.sale a:hover:nth-child(2n+1) {
+    transform: rotate(-15deg);
+}
+.sale figure {
+    margin: 0;
+}
+.sale figure figcaption strong {
+    display: block;
+}
+.sandalias div{
+    width: 40%;
+    justify-content: end;
+}
+.sandalias div img {
+    width: 100%;
+}
+.sandalias h2 {
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.7em;
+}
+.sandalias a {
+    display: inline-block;
+    width: 250px;
+    background-color: #C2185B;
+    color: #fff;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 80px;
+    margin: 20px 0;
+    border: 1px solid #C2185B;
+}
+.sandalias a:hover {
+    background-color: #fff;
+    color: #C2185B;
+}

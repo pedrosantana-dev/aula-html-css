@@ -2,114 +2,138 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes Store</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
     <header>
-        <nav class="menu">
-            <div class="logo">
-                <h1><a href="/"><img src="images/logo-color.png" alt="Shoes Store"></a></h1>
-            </div>
+        <nav class="max-width nav">
+            <img src="images/logo-color.png" alt="Logo Shoes Store">
             <ul>
-                <li><a href="#">TODOS OS PRODUTOS</a></li>
-                <li><a href="#">COLEÇÕES</a></li>
-                <li><a href="#">OUTLET</a></li>
+                <li>
+                    <a href="#">Todos os Produtos</a>
+                </li>
+                <li>
+                    <a href="#">Coleções</a>
+                </li>
+                <li>
+                    <a href="#">Outlet</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <div class="banner">
-        <img src="images/banner.png" alt="">
-    </div>
-    <h2>encontre seu estilo</h2>
-    <div class="destaques">
-        <img src="images/photoshoot-1.png" alt="">
-        <img src="images/photoshoot-2.png" alt="">
-    </div>
-
-    <div class="sale">
-        <h2>30% OFF</h2>
-        <ul>
-            <li>
+    <section class="banner">
+        <img src="images/banner.png" alt="Banner Shoes Store">
+    </section>
+    <section class="max-width col text-center">
+        <h2>Encontre Seu Estilo</h2>
+        <div class="row estilo">
+            <div class="col">
+                <img src="images/photoshoot-1.png" alt="">
+            </div>
+            <div class="col">
+                <img src="images/photoshoot-2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="sale">
+        <div class="max-width col text-center">
+            <h2>30% OFF</h2>
+            <div class="row">
                 <a href="#">
-                    <img src="images/shoes1.png" alt="">
-                    <div>
-                        <h4>SCARPIN SALTO FINO BÁSICO</h4>
-                        <p>RS 140,00</p>
-                    </div>
+                    <figure>
+                        <img src="images/shoes1.png" alt="">
+                        <figcaption><strong>Scarpin Salto Fino Básico</strong>R$ 140,00</figcaption>
+                    </figure>
                 </a>
-            </li>
-            <li><a href="#">
-                    <img src="images/shoes2.png" alt="">
-                    <div>
-                        <h4>SCARPIN SALTO FINO BÁSICO</h4>
-                        <p>RS 140,00</p>
-                    </div>
-                </a></li>
-            <li>
                 <a href="#">
-                    <img src="images/shoes3.png" alt="">
-                    <div>
-                        <h4>SCARPIN SALTO FINO BÁSICO</h4>
-                        <p>RS 140,00</p>
-                    </div>
+                    <figure>
+                        <img src="images/shoes2.png" alt="">
+                        <figcaption><strong>Scarpin Salto Fino Básico</strong>R$ 140,00</figcaption>
+                    </figure>
                 </a>
-            </li>
-            <li>
                 <a href="#">
-                    <img src="images/shoes4.png" alt="">
-                    <div>
-                        <h4>SCARPIN SALTO FINO BÁSICO</h4>
-                        <p>RS 140,00</p>
-                    </div>                        
+                    <figure>
+                        <img src="images/shoes3.png" alt="">
+                        <figcaption><strong>Scarpin Salto Fino Básico</strong>R$ 140,00</figcaption>
+                    </figure>
                 </a>
-            </li>
-        </ul>
-    </div>
-    <section>
-        <div>
-            <h3>SANÁLIA PALMILHA MATELASSÊ TIRAS ROLOTÊ</h3>
-            <a class="botao" href="#">ver detalhes</a>
+                <a href="#">
+                    <figure>
+                        <img src="images/shoes4.png" alt="">
+                        <figcaption><strong>Scarpin Salto Fino Básico</strong>R$ 140,00</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="sandalias max-width row">
+        <div class="col">
+            <h2>SANDALIA PALMILHA MATELASSÊ TIRAS ROLOTÊ</h2>
+            <a href="#">ver detalhes</a>
             <img src="images/photoshoot-3.png" alt="">
         </div>
-        <div>
+        <div class="col">
             <img src="images/photoshoot-4.png" alt="">
         </div>
     </section>
 
     <footer>
         <div class="max-width">
-          <div>
-            <img src="images/logo-white.png" alt="">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, optio.
-          </div>
-  
-          <div>
-            <strong>categorias</strong>
-            <ul>
-              <li><a href="#">sandálias</a></li>
-              <li><a href="#">botas</a></li>
-              <li><a href="#">tênis</a></li>
-              <li><a href="#">oxford</a></li>
-              <li><a href="#">coturnos</a></li>
-            </ul>
-          </div>
-          <div>
-            <strong>institucional</strong>
-            <ul>
-              <li><a href="#">sobre nós</a></li>
-              <li><a href="#">perguntas frequentes</a></li>
-              <li><a href="#">política de privacidade</a></li>
-              <li><a href="#">reastreamento de pedidos</a></li>
-              <li><a href="#">fale conosco</a></li>
-            </ul>
-          </div>
+            <div class="shoes">
+                <h1>Shoes Store</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sint, sit veritatis velit explicabo
+                tempore?
+            </div>
+            
+            <div>
+                <h4>categorias</h4>
+                <ul>
+                    <li>
+                        <a href="#">sandálias</a>
+                    </li>
+                    <li>
+                        <a href="#">botas</a>
+                    </li>
+                    <li>
+                        <a href="#">tênis</a>
+                    </li>
+                    <li>
+                        <a href="#">oxford</a>
+                    </li>
+                    <li>
+                        <a href="#">coturnos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>institucional</h4>
+                <ul>
+                    <li>
+                        <a href="#">sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="#">perguntas frequentes</a>
+                    </li>
+                    <li>
+                        <a href="#">política de privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#">rastreamento de pedidos</a>
+                    </li>
+                    <li>
+                        <a href="#">fale conosco</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </footer>
+    </footer>
 </body>
 
 </html>

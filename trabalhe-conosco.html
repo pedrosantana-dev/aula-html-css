@@ -1,89 +1,90 @@
-<!<!DOCTYPE html>
-  <!DOCTYPE html>
-  <html lang="pt-br" dir="ltr">
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-  <head>
-    <meta charset="utf-8">
-    <title>Trabalhe Conosco | Shoes Store</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Trabalhe Conosco | Shoes Store</title>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/trabalhe-conosco.css">
+</head>
 
-  <body>
-    <header>
-      <nav class="menu">
-        <div class="logo">
-          <h1><a href="/"><img src="images/logo-color.png" alt="Shoes Store"></a></h1>
-        </div>
-        <ul>
-          <li><a href="#">TODOS OS PRODUTOS</a></li>
-          <li><a href="#">COLEÇÕES</a></li>
-          <li><a href="#">OUTLET</a></li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <header>
+    <nav class="max-width nav">
+      <img src="images/logo-color.png" alt="Logo Shoes Store">
+      <ul>
+        <li>
+          <a href="#">Todos os Produtos</a>
+        </li>
+        <li>
+          <a href="#">Coleções</a>
+        </li>
+        <li>
+          <a href="#">Outlet</a>
+        </li>
+      </ul>
+    </nav>
+  </header>  
 
+  <section class="trab-conosco">
     <div class="sticky">
       <h1>
         MÊS DE SETEMBRO, FRETE GRATIS PARA TODO O BRASIL
       </h1>
     </div>
-    
-    <section>
+    <div class="max-width">
+      <h2>Faça parte do nosso time</h2>
+      <div class="grid">
+        <form action="" name="trabalhe">
+          <fieldset>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+          </fieldset>
 
-      <div class="max-width">
-        <div class="formulario">
-          <h2>Faça parte do nosso time</h2>
-          <form action="" name="trabalhe">
-            <fieldset>
-              <label for="nome">Nome</label>
-              <input type="text" id="nome" name="nome">
-            </fieldset>
+          <fieldset>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email">
+          </fieldset>
 
-            <fieldset>
-              <label for="email">E-Mail</label>
-              <input type="email" id="email" name="email">
-            </fieldset>
+          <fieldset>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+          </fieldset>
 
-            <fieldset>
-              <label for="telefone">Telefone</label>
-              <input type="text" id="telefone" name="telefone">
-            </fieldset>
+          <fieldset>
+            <label for="departamento">Departamento</label>
+            <input type="text" id="departamento" name="departamento">
+          </fieldset>
 
-            <fieldset>
-              <label for="departamento">Departamento</label>
-              <input type="text" id="departamento" name="departamento">
-            </fieldset>
-
-            <fieldset>
-              <h5>Disponibilidade</h5>
-              <div class="disponibilidade">
-                <input type="checkbox" name="disponibilidade" id="disponibilidade" value="integral">Integral (8H)
-                <input type="checkbox" name="disponibilidade" id="disponibilidade" value="meio">Meio periodo (4H)
-                <input type="checkbox" name="disponibilidade" id="disponibilidade" value="free">Freelancer
-              </div>
-            </fieldset>
-
-            <fieldset>
-              <h5>Qual a melhor forma de entrar em contato?</h5>
-              <div>
-                <input type="radio" name="formaContato" id="" value="email">Email
-                <input type="radio" name="formaContato" id="" value="ligacao">Ligação
-                <input type="radio" name="formaContato" id="" value="whatsapp">whatsapp
-              </div>
-            </fieldset>
-
-            <fieldset>
-              <h5>Mensagem</h5>
-              <textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
-            </fieldset>
-
-            <div class="upload">
-              Curriculo <button type="button">upload</button>
+          <fieldset>
+            <h5>Disponibilidade</h5>
+            <div class="disponibilidade">
+              <input type="checkbox" name="disponibilidade" id="disponibilidade" value="integral">Integral (8H)
+              <input type="checkbox" name="disponibilidade" id="disponibilidade" value="meio">Meio periodo (4H)
+              <input type="checkbox" name="disponibilidade" id="disponibilidade" value="free">Freelancer
             </div>
-            <button type="button">enviar</button>
-          </form>
-        </div>
+          </fieldset>
 
+          <fieldset>
+            <h5>Qual a melhor forma de entrar em contato?</h5>
+            <div>
+              <input type="radio" name="formaContato" id="" value="email">Email
+              <input type="radio" name="formaContato" id="" value="ligacao">Ligação
+              <input type="radio" name="formaContato" id="" value="whatsapp">whatsapp
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <h5>Mensagem</h5>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
+          </fieldset>
+
+          <div class="upload">
+            Curriculo <button type="button">upload</button>
+          </div>
+          <button type="button" class="btnEnviar">enviar</button>
+        </form>
         <div class="texto">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic rerum dolorum voluptas voluptatem
           maxime temporibus aut quia est doloremque iure nulla alias ab in ex, incidunt exercitationem suscipit,
@@ -98,37 +99,62 @@
           ab!
         </div>
       </div>
-    </section>
+    </div>
 
-    <footer>
-      <div class="max-width">
-        <div>
-          <img src="images/logo-white.png" alt="">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, optio.
-        </div>
 
-        <div>
-          <strong>categorias</strong>
-          <ul>
-            <li><a href="#">sandálias</a></li>
-            <li><a href="#">botas</a></li>
-            <li><a href="#">tênis</a></li>
-            <li><a href="#">oxford</a></li>
-            <li><a href="#">coturnos</a></li>
-          </ul>
-        </div>
-        <div>
-          <strong>institucional</strong>
-          <ul>
-            <li><a href="#">sobre nós</a></li>
-            <li><a href="#">perguntas frequentes</a></li>
-            <li><a href="#">política de privacidade</a></li>
-            <li><a href="#">reastreamento de pedidos</a></li>
-            <li><a href="#">fale conosco</a></li>
-          </ul>
-        </div>
+  </section>
+
+  <footer>
+    <div class="max-width">
+      <div class="shoes">
+        <h1>Shoes Store</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sint, sit veritatis velit explicabo
+        tempore?
       </div>
-    </footer>
-  </body>
 
-  </html>
+      <div>
+        <h4>categorias</h4>
+        <ul>
+          <li>
+            <a href="#">sandálias</a>
+          </li>
+          <li>
+            <a href="#">botas</a>
+          </li>
+          <li>
+            <a href="#">tênis</a>
+          </li>
+          <li>
+            <a href="#">oxford</a>
+          </li>
+          <li>
+            <a href="#">coturnos</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>institucional</h4>
+        <ul>
+          <li>
+            <a href="#">sobre nós</a>
+          </li>
+          <li>
+            <a href="#">perguntas frequentes</a>
+          </li>
+          <li>
+            <a href="#">política de privacidade</a>
+          </li>
+          <li>
+            <a href="#">rastreamento de pedidos</a>
+          </li>
+          <li>
+            <a href="#">fale conosco</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

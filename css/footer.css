@@ -1,0 +1,36 @@
+footer {
+    background-color: #C2185B;
+    color: #fff;
+}
+footer .max-width {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .max-width div {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+}
+footer .shoes h1 {
+    text-indent: -9999px;
+    background: url('../images/logo-white.png');
+    background-position: center;
+    background-size: cover;
+    line-height: 88px;
+    margin: 0;
+}
+footer div h4 {
+    padding: 0;
+}
+footer div ul {
+    margin: 0;
+    padding: 0;
+}
+footer div li {
+    list-style: none;
+}
+footer li a {
+    color: #fff;
+    text-decoration: none;
+}
